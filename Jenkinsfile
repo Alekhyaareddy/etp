@@ -15,12 +15,7 @@ pipeline {
                 bat 'docker build -t newone .'
             }
         }
-        stage('Run Container') {
-            steps {
-                bat 'docker run -d -p 8087:80 newone'
-            }
-        }
-
+       
        
 
       
