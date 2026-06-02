@@ -6,7 +6,7 @@ pipeline {
 
         stage('Checkout Repository') {
             steps {
-                git branch: 'master', url: 'https://github.com/Alekhyaareddy/exam'
+                git branch: 'master', url: 'https://github.com/Alekhyaareddy/etp'
             }
         }
 
